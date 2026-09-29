@@ -5,66 +5,39 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Mohammad Asif – Resume</title>
 <style>
-  @page { size: A4; margin: 12mm; }
-  body { font-family: Calibri, Arial, sans-serif; font-size: 10pt; color: #111; background: #fff; max-width: 190mm; margin: 0 auto; padding: 8px 16px; line-height: 1.35; }
+  @page { size: A4; margin: 8mm 12mm; }
+  body { font-family: Calibri, Arial, sans-serif; font-size: 9.5pt; color: #111; background: #fff; max-width: 190mm; margin: 0 auto; padding: 0 16px; line-height: 1.26; }
   h1 { text-align: center; color: #1F3864; font-size: 16pt; margin: 0 0 2px; letter-spacing: .5px; }
   .sub, .contact { text-align: center; margin: 0 0 2px; }
-  .contact { font-size: 9.5pt; margin-bottom: 6px; }
-  h2 { color: #1F3864; font-size: 11pt; border-bottom: 1px solid #1F3864; margin: 10px 0 4px; padding-bottom: 1px; }
-  p { margin: 0 0 4px; }
-  .job { display: flex; justify-content: space-between; gap: 12px; margin: 6px 0 2px; }
+  .contact { font-size: 9pt; margin-bottom: 4px; }
+  h2 { color: #1F3864; font-size: 10.5pt; border-bottom: 1px solid #1F3864; margin: 8px 0 3px; padding-bottom: 1px; }
+  p { margin: 0 0 3px; }
+  .job { display: flex; justify-content: space-between; gap: 12px; margin: 5px 0 1px; }
   .job .d { font-style: italic; white-space: nowrap; }
-  ul { margin: 0 0 2px; padding-left: 18px; }
-  li { margin-bottom: 2px; }
+  .proj { margin: 5px 0 1px; }
+  .proj i { color: #333; }
+  ul { margin: 0 0 1px; padding-left: 18px; }
+  li { margin-bottom: 1px; }
 </style>
 </head>
 <body>
 <h1>MOHAMMAD ASIF</h1>
-<p class="sub">Data &amp; AI Engineer &nbsp;|&nbsp; MSc Computing (AI) student, Dublin City University</p>
-<p class="contact">asifdanish7654@gmail.com &nbsp;|&nbsp; +353 89 274 3006 &nbsp;|&nbsp; Dublin, Ireland &nbsp;|&nbsp; linkedin.com/in/md-asif-dataengineer</p>
-
+<p class="sub">Data &amp; AI Engineer  |  MSc Computing (AI) student, Dublin City University</p>
+<p class="contact">asifdanish7654@gmail.com  |  +353 89 274 3006  |  Dublin, Ireland  |  linkedin.com/in/md-asif-dataengineer</p>
 <h2>SUMMARY</h2>
-<p>Data engineer with 5 years' experience at Cognizant, EY and PwC, building data pipelines on Azure with Databricks, PySpark, Azure Data Factory and SQL. At PwC I halved Spark job run times and helped move legacy on-premise ETL to Azure; at EY I built automated data-quality checks that cut post-release defects by around 40%. I'm now studying for an MSc in Computing (Artificial Intelligence) at Dublin City University, where I'm working with LLMs, RAG and agentic AI. I'm looking for data or AI engineering roles in Ireland.</p>
-
+<p>Data engineer with five years at Cognizant, EY and PwC, mostly building Azure data platforms with Databricks, PySpark, Data Factory and SQL. Over the last two years my work has moved towards GenAI: a RAG assistant for a PwC client, and an agent-based data-quality prototype at EY. I'm now doing an MSc in Computing (AI) at DCU and looking for data or AI engineering roles in Ireland.</p>
 <h2>SKILLS</h2>
-<p><b>Data engineering:</b> Python, PySpark, Spark SQL, SQL, R, Azure Databricks, Azure Data Factory, ADLS Gen2, Delta Lake, ETL, data warehousing, RDBMS, HDFS</p>
-<p><b>AI / ML:</b> LLMs, RAG, agentic AI, prompt engineering, MLflow</p>
-<p><b>Tools &amp; ways of working:</b> Power BI, Azure Key Vault, Agile delivery</p>
-
+<p><b>Data engineering: </b>Python, PySpark, Spark SQL, SQL, R, Azure Databricks, Azure Data Factory, ADLS Gen2, Delta Lake, medallion architecture, ETL/ELT, data warehousing, RDBMS, HDFS</p>
+<p><b>GenAI / ML: </b>Azure OpenAI, LangChain, LangGraph, RAG, vector search, AI agents, MCP, prompt engineering, LLM evaluation, MLflow</p>
+<p><b>Tools: </b>Power BI, Azure Key Vault, Git, Agile delivery</p>
 <h2>WORK EXPERIENCE</h2>
-<div class="job"><span><b>Data &amp; AI Engineer</b>, PricewaterhouseCoopers (PwC), Kolkata, India</span><span class="d">Dec 2025 – Jul 2026</span></div>
-<ul>
-  <li>Built a pipeline that brings data from several source systems into Azure Data Lake Storage Gen2, making data retrieval about 40% faster.</li>
-  <li>Tuned slow Spark jobs in Azure Databricks and cut their run time by half.</li>
-  <li>Moved legacy on-premise ETL workloads to Azure so they could scale with growing data volumes.</li>
-  <li>Set up MLflow experiment tracking in Databricks and prepared model-ready datasets for the analytics team.</li>
-  <li>Worked with data analysts, business stakeholders and solution architects to turn business requirements into working pipelines.</li>
-</ul>
-
-<div class="job"><span><b>Data &amp; AI Engineer</b>, Ernst &amp; Young (EY), Kolkata, India</span><span class="d">Jul 2024 – Dec 2025</span></div>
-<ul>
-  <li>Wrote automated data-quality and validation checks for client pipelines, reducing post-release defects by around 40%.</li>
-  <li>Carried out root-cause analysis on a customer churn dataset; the findings fed into client decisions that helped reduce churn by 25%.</li>
-  <li>Moved 100+ sensitive credentials used across client data pipelines into Azure Key Vault.</li>
-  <li>Implemented Delta Lake tables (ACID transactions) to support reliable real-time analytics.</li>
-</ul>
-
-<div class="job"><span><b>Data Engineer</b>, Cognizant, Bangalore, India</span><span class="d">Jul 2021 – Jun 2024</span></div>
-<ul>
-  <li>Built PySpark and Spark SQL transformations in Databricks that turned raw data into clean, structured datasets for business reporting.</li>
-  <li>Led pre-release testing of data pipelines to check data quality and accuracy against project standards.</li>
-  <li>Ran 20+ knowledge-sharing sessions for the team, helping junior members get up to speed faster.</li>
-</ul>
-
+<div class="job"><span><b>Data &amp; AI Engineer</b>, PricewaterhouseCoopers (PwC), Kolkata, India</span><span class="d">Dec 2025 – Jul 2026</span></div><ul><li>Owned ingestion for a financial services client: Azure Data Factory pipelines pulling from on-prem SQL Server, Oracle and a few REST APIs into ADLS Gen2, landed as bronze, silver and gold Delta tables. Data retrieval got roughly 40% faster.</li><li>Halved the run time of our slowest Databricks jobs. Most of the gain came from fixing skewed partitions and switching large lookups to broadcast joins.</li><li>Helped build a RAG assistant on Azure OpenAI and Databricks Vector Search that lets the client's teams ask questions about internal policy documents and get answers with page references. My part was the chunking and embedding pipeline, plus evaluating answer quality in MLflow.</li><li>Moved legacy SSIS packages off on-prem servers and onto Data Factory and Databricks.</li><li>Set up MLflow tracking and feature-ready Delta tables for the data science team, working closely with analysts and solution architects on requirements.</li></ul>
+<div class="job"><span><b>Data &amp; AI Engineer</b>, Ernst &amp; Young (EY), Kolkata, India</span><span class="d">Jul 2024 – Dec 2025</span></div><ul><li>Wrote the PySpark data-quality checks that ran before every release (nulls, duplicates, schema drift, source-to-target reconciliation). Post-release defects dropped by around 40%.</li><li>Extended those checks with a LangGraph agent prototype that profiled Delta tables through an MCP server and drafted new validation rules for an engineer to review.</li><li>Dug into a telecom client's churn data (billing, usage, support tickets) to find out why customers were leaving. The retention changes that followed cut churn by 25%.</li><li>Moved 100+ passwords, keys and connection strings out of pipeline configs and into Azure Key Vault.</li><li>Set up Delta Lake tables with MERGE upserts behind the client's real-time Power BI dashboards.</li></ul>
+<div class="job"><span><b>Data Engineer</b>, Cognizant, Bangalore, India</span><span class="d">Jul 2021 – Jun 2024</span></div><ul><li>Wrote PySpark and Spark SQL jobs in Databricks to clean up raw CSV, JSON and database extracts for reporting.</li><li>Led pre-release testing, which mostly meant reconciling row counts and values between source and target.</li><li>Ran 20+ internal sessions on Spark and Databricks for new joiners.</li></ul>
 <h2>EDUCATION</h2>
 <div class="job"><span><b>MSc in Computing (Artificial Intelligence)</b>, Dublin City University, Ireland</span><span class="d">Sep 2026 – 2027</span></div>
 <div class="job"><span><b>B.Tech, Information Technology</b>, Institute of Technical Education and Research, Bhubaneswar, India</span><span class="d">2017 – 2021</span></div>
-
 <h2>CERTIFICATIONS</h2>
-<ul>
-  <li>Microsoft Certified: Azure Data Engineer Associate (DP-203)</li>
-  <li>Microsoft Certified: Azure AI Fundamentals (AI-900) and Azure Fundamentals (AZ-900)</li>
-  <li>Agentic AI Engineering and The Ultimate Big Data Masters Program, Trendytech</li>
-</ul>
+<p>Microsoft Azure Data Engineer Associate (DP-203)  |  Azure AI Fundamentals (AI-900)  |  Azure Fundamentals (AZ-900)  |  Agentic AI Engineering and The Ultimate Big Data Masters Program (Trendytech)</p>
 </body>
 </html>
